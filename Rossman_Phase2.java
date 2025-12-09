@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Rossman_Phase1 {
+public class Rossman_Phase2 {
 
     public static void main(String[] args) {
         // Create a test player to verify the Player class works
