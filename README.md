@@ -1,20 +1,11 @@
-Fantasy Draft Manager - Phase 2
+Fantasy Draft Manager
 
-How to Run my program: 
-1. Compile the program: javac Rossman_Phase1.java
-2. Run it: java Rossman_Phase1
+This project is a command line fantasy football draft manager designed for live, in person drafts. During live drafts, most people still rely on pen and paper, crossing names off lists, or switching between web pages while trying to track available players and their own team. This program replaces that manual process with a simple digital system that keeps everything organized in one place.
 
+The program loads player data from CSV files and tracks all undrafted players, drafted players, and position specific lists including quarterbacks, running backs, wide receivers, tight ends, and kickers. Users can view the best available players overall or by position, draft a player, cross a player off, and view their drafted team. Rankings update dynamically as players are removed so the user always sees the best remaining options. The interface is command line based to match the scope of the course and the programming concepts taught.
 
-Short summary/features:
-This is the first part of my fantasy football draft manager project for class.  
-Right now the program can compile and run in the console. It has a Player class, a DraftManager class, and a simple command loop that accepts input like "help" and "exit". The data loading and drafting features will be added in later phases.
-Current progress:
-- Player class finished
-- DraftManager class skeleton created
-- Command loop works
-- Help and exit commands work
+From a technical standpoint, the project uses object oriented design with a Player class to represent player data and a DraftManager class to handle draft logic, user commands, and data flow. Arrays are used to store players since arrays were a major focus of the course. Input validation and error handling are included to prevent crashes from invalid commands or missing data. Output is formatted using fixed width formatting so columns remain aligned and readable.
 
-Next steps:
-- Load actual player data from CSV files
-- Implement "show" commands for each position
-- Add drafting and crossing off players
+Commands available in the program include show all, show qb, show rb, show wr, show te, show k, draft followed by a player id, cross followed by a player id, show team, help, and exit.
+
+This project focuses on improving the live fantasy draft experience by replacing pen and paper tracking with a structured digital workflow while staying within the limits of what was taught in the course.

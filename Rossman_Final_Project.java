@@ -11,7 +11,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Rossman_Phase2 {
+public class Rossman_Final_Project {
 
     public static void main(String[] args) {
 
